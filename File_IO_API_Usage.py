@@ -1,7 +1,8 @@
 import requests
 import json
 
-file_io_api_server_name_and_port = "http://127.0.0.1:8005"
+# file_io_api_server_name_and_port = "http://127.0.0.1:8005"
+file_io_api_server_name_and_port = "http://127.0.0.1:8006"
 
 
 def get_file_list():

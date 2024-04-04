@@ -1,0 +1,41 @@
+### To start clean on your local machine
+sudo docker image rm file_io_api_i:latest
+sudo docker image rm thomives/file_io_api_i:latest
+
+### Build the image from your latest Dockerfile
+sudo docker image build -t file_io_api_i:latest .
+
+### Give the image a tag that works for Docker Hub
+sudo docker tag file_io_api_i:latest thomives/file_io_api_i:latest
+
+### Log into Docker Hub IF necessary
+sudo docker login
+
+### Push the image up to Docker Hub
+sudo docker push thomives/file_io_api_i:latest
+
+### Pull the image down to the server that needs it from Docker Hub
+sudo docker pull thomives/file_io_api_i:latest
+
+### Run the image with the necessary flags
+sudo docker container run --name file_io_api --restart always -p 8001:8001 -d thomives/file_io_api_i
+
+### Stop the container and remove it when you need to rerun a new image
+sudo docker container stop file_io_api
+sudo docker container rm file_io_api
+
+### Rarely used
+sudo docker container restart file_io_api
+
+### https://stackoverflow.com/questions/63663307/start-docker-container-interactively
+sudo docker exec -it quote_builder /bin/bash
+# Gets you into a terminal for the container
+
+### https://stackoverflow.com/questions/25267372/correct-way-to-detach-from-a-container-without-stopping-it
+# use CTRL-p, CTRL-q to exit the bash of the container
+
+### https://stackoverflow.com/questions/63027514/install-package-in-running-docker-container
+# How to install new things in container and actually save them!
+
+### https://stackoverflow.com/questions/22944631/how-to-get-the-ip-address-of-the-docker-host-from-inside-a-docker-container
+# 172.17.0.1 is the IP address of the host with respect to the docker container
