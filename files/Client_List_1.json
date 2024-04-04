@@ -1,0 +1,24 @@
+[
+    {
+        "File_Name": "Client_List_1.json",
+        "Client_Name": "Gabe Ives",
+        "Client_Email": "gabe.ives@gingers.org",
+        "Client_Phone": "505.555.3451",
+        "Client_Company": "Costco",
+        "Client_ID": "001",
+        "Agent_Name": "Eye Care",
+        "Agent_Email": "eye.care@alot.net",
+        "Agent_Phone": "505.555.0987"
+    },
+    {
+        "File_Name": "Client_List_1.json",
+        "Client_Name": "Anna Ives",
+        "Client_Email": "anna.ives@spicy.net",
+        "Client_Phone": "505.555.7773",
+        "Client_Company": "Wonder Land",
+        "Client_ID": "002",
+        "Agent_Name": "Yew Care",
+        "Agent_Email": "yew.care@thanks.net",
+        "Agent_Phone": "505.555.0988"
+    }
+]

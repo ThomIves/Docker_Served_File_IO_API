@@ -1,0 +1,24 @@
+[
+    {
+        "File_Name": "Client_List_2.json",
+        "Client_Name": "David Ives",
+        "Client_Email": "david.ives@mowers.net",
+        "Client_Phone": "505.555.3449",
+        "Client_Company": "Testers",
+        "Client_ID": "003",
+        "Agent_Name": "Eye Care",
+        "Agent_Email": "eye.care@alot.net",
+        "Agent_Phone": "505.555.0982"
+    },
+    {
+        "File_Name": "Client_List_2.json",
+        "Client_Name": "Abby Ives",
+        "Client_Email": "anna.ives@spicy.net",
+        "Client_Phone": "505.555.7773",
+        "Client_Company": "Exercise Physiologists",
+        "Client_ID": "004",
+        "Agent_Name": "Beat You Up",
+        "Agent_Email": "beat.up@you.net",
+        "Agent_Phone": "505.555.0983"
+    }
+]
